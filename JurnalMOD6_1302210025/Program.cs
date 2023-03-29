@@ -24,8 +24,10 @@ internal class Program
         v = new SayaTubeVideo("Review Film HowToBasic oleh Tangguh Laksana ");
         tube.addVideo(v);
         v = new SayaTubeVideo("Review Film L oleh Tangguh Laksana ");
+        v.increasePlayCount(-26000000);
         tube.addVideo(v);
 
+       
         tube.printAllVideoPlayCount();
     }
 }
